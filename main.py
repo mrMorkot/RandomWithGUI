@@ -3,7 +3,7 @@ import tkinter
 import random
 from tkinter import messagebox
 
-list = ['Java Script', 'Python', 'Blender','Go', 'SQL', 'Поиграй в игру', 'Git', 'HTML/CSS']
+list = ['Java Script', 'Python', 'Blender','Go', 'SQL', 'Поиграй в игру', 'Git', 'HTML/CSS']# сделать ввод, чтоб вводить любые слова
 def clicked():
     btn['text'] = f'Сегодня занимаешься:\n {random.choice(list)}'
 
