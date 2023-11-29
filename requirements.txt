@@ -1,0 +1,5 @@
+charset-normalizer==3.3.2
+docopt==0.6.2
+idna==3.6
+pipreq==0.4
+urllib3==2.1.0
