@@ -16,7 +16,7 @@ label.pack()
 window.geometry('400x300+400+300')
 
 btn = tkinter.Button(window, text="Жмяк", bg="blue", fg="yellow", width=50, height=30,
-                     font=('Arial Bold', 22), command=clicked )
+                    font=('Arial Bold', 22), command=clicked )
 
 btn.place(relx=.5, rely=.5, anchor="c", height=210, width=350, bordermode=OUTSIDE)
 window.mainloop()
